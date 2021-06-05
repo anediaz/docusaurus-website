@@ -24,6 +24,12 @@ module.exports = {
           label: 'My first doc',
         },
         {
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Intro',
+        },
+        {
           href: 'https://github.com/anediaz/docusaurus-website',
           label: 'GitHub',
           position: 'right',
@@ -38,7 +44,7 @@ module.exports = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/main',
+              to: '/docs/intro',
             },
           ],
         }
