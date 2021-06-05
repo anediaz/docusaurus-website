@@ -1,5 +1,9 @@
 # Website
 
+Take a look to the generated Web Site : https://anediaz.github.io/docusaurus-website
+
+# Docusaurus
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
