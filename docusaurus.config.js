@@ -3,7 +3,7 @@ module.exports = {
   title: 'Docusaurus website',
   tagline: 'Pink flamingos are really cool',
   url: 'https://anediaz.github.io/docusaurus-website',
-  baseUrl: '/',
+  baseUrl: '/docusaurus-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -19,7 +19,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'main',
           position: 'left',
           label: 'My first doc',
         },
