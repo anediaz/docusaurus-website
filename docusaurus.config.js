@@ -20,12 +20,11 @@ module.exports = {
         {
           type: 'doc',
           docId: 'main',
-          position: 'left',
           label: 'My first doc',
         },
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'tutorial/intro',
           position: 'left',
           label: 'Intro',
         },
@@ -36,7 +35,7 @@ module.exports = {
         },
       ],
     },
-    footer: {
+    /*footer: {
       style: 'dark',
       links: [
         {
@@ -50,7 +49,7 @@ module.exports = {
         }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
+    },*/
   },
   presets: [
     [
@@ -59,8 +58,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          //editUrl:
+            //'https://github.com/facebook/docusaurus/edit/master/website/', // If empty, no edit link displayed
         },
         blog: {
           showReadingTime: true,
